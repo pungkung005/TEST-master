@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="108dp"
+            android:gravity="center"
+            android:text="@string/B10"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="410dp"
+            android:layout_height="300dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/buttonB11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/Bus26"
+                    tools:layout_editor_absoluteX="33dp" />
+
+                <Button
+                    android:id="@+id/buttonB12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/Bus27"
+                    tools:layout_editor_absoluteX="33dp" />
+
+                <Button
+                    android:id="@+id/buttonB13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/Bus28"
+                    tools:layout_editor_absoluteX="33dp" />
+
+                <Button
+                    android:id="@+id/buttonB14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/Bus29"
+                    tools:layout_editor_absoluteX="33dp" />
+
+                <Button
+                    android:id="@+id/buttonB15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/Bus30"
+                    tools:layout_editor_absoluteX="33dp" />
+
+                <Button
+                    android:id="@+id/buttonB16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/Bus31"
+                    tools:layout_editor_absoluteX="33dp" />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Back" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
